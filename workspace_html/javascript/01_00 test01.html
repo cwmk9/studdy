@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        let today = new Date();
+        let target = new Date(2026,11,25);
+        console.log(today)
+        console.log(target)
+        let dday = function(){
+            if(today<target){
+                console.log(parseInt((target-today)/1000/60/60/24))
+            }else{
+                console.log('이미 지난 날짜 입니다')
+            }
+        }
+       dday()
+       console.log(today.getDate())
+        let days = ["일", "월", "화", "수", "목", "금", "토"];
+        let d = function(){
+            let D = days[today.getDay()]
+            if(today.getDay()==0 || today.getDay()==6){
+                console.log('오늘은',D,'주말입니다')
+            }else{
+                console.log('오늘은',D,'평일입니다')
+            }
+        }
+        d()
+
+        let seasons = ["겨울", "봄", "여름", "가을"];
+        let S = function(){
+            let s = today.getMonth();
+            if(s>=2 && s<=4){
+                console.log('오늘은',s+1,'월 봄입니다')
+            }else if(s>=5 && s<=7){
+                console.log('오늘은',s+1,'월 여름입니다')
+            }else if(s>=8 && s<=10){
+                console.log('오늘은',s+1,'월 가을입니다')
+            }else if(s==11 || s==0 || s==1){
+                console.log('오늘은',s+1,'월 겨울입니다')
+            }
+        }
+        S()
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

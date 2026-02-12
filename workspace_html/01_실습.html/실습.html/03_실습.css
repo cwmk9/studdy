@@ -1,0 +1,166 @@
+#실습{
+    background-color: #d9dae0;
+
+
+    width:99vw;
+    height:97vh;
+
+    font-size: 50px;
+    text-align: center;
+
+    overflow: hidden;
+    
+}
+
+
+#실습 .실습{
+    margin: 40px 174px;
+
+}
+
+.실습1{
+    background-color: white;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
+    width:30vw;
+    height:60vh;
+
+    /* vertical-align: bottom; */
+    display:inline-block;
+}
+
+.실습1-1{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/88834/images/34.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-weight: 500;
+
+    width:30vw;
+    height:30vh;
+}
+
+.실습1-2{
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.실습1-3{
+    font-size: 30px;
+    color: red;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.실습1-4{
+     font-size: 14px;
+    border-bottom:1px solid red;
+     width:40px;
+     margin: 30px 170px;
+    }
+
+
+.실습2{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width:30vw;
+    height:60vh;
+
+    /* vertical-align: bottom; */
+    display:inline-block;
+}
+
+.실습2-1{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/88834/images/modern-studio-apartment-design-with-bedroom-living-space_1262-12375.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width:30vw;
+    height:30vh;
+}
+
+.실습2-2{
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.실습2-3{
+    font-size: 30px;
+    color: red;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.실습2-4{
+     font-size: 14px;
+    border-bottom:1px solid red;
+     width:40px;
+     margin: 30px 170px;
+}
+
+.실습3{
+    background-color: white;
+    
+    background-position: center;
+
+    width:30vw;
+    height:60vh;
+
+    /* vertical-align: bottom; */
+    display:inline-block;
+}
+
+.실습3-1{
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/88834/images/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width:30vw;
+    height:30vh;
+}
+.실습3-2{
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.실습3-3{
+    font-size: 30px;
+    color: red;
+    margin-top: 30px;;
+    font-weight: 500;
+}
+
+.실습3-4{
+    font-size: 14px;
+    border-bottom:1px solid red;
+     width:40px;
+     margin: 30px 170px;
+     
+}
+
+.실습4{
+
+    display: inline-block;
+
+    font-size: 18px;
+}
+
+.실습5{
+
+    display: inline-block;
+
+    font-size: 18px;
+
+    border-bottom: 1px solid black;
+
+    font-weight: 500;
+}

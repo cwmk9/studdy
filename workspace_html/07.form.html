@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        text : <input type="text"><br>
+        text(기본값) : <input><br>
+        text(value) : <input type="text" value="초기값"><br>
+        text(placeholder) : <input type="text" placeholder="플레이스 홀더"><br>
+        text(placeholder,value) : <input type="text" placeholder="플레이스 홀더" value="초기값"><br>
+        text(readonly) : <input type="text" value="수정불가" readonly="readonly"><br>
+        text(disabled) : <input type="text" value="클릭도 불가" disabled="disabled"><br>
+        password : <input type="password">
+        <hr>
+        <textarea rows="10" cols="50">미리
+            보여줄 글 드래그로 크기 조절되고 미리 써놓을수도 있다
+        </textarea>
+        <br>
+        eatalist 연습 : <input type = "text" list="cwmk">  <!-- 자동완성 -->
+        <datalist id = "cwmk">
+            <option value="가나">
+            <option value="가봉">
+            <option value="바다">
+        </datalist>
+        <br>
+        input : button : <input type="button" value="로그인"><br>
+        button :  : <button type="button">버튼태그</button>
+        <br>
+        submit : <input type="submit" value="전송"><br>
+        submit (value없음) : <input type="submit"><br>
+        button : <button type="submit">버튼 submit</button><br>
+        <br>
+        reset : <input type="reset" value="기본글씨는 초기화"> <!--초기화와 새로고침은 다르다-->
+        <br>
+        이미지를 버튼으로 감싼다<br>
+        <button type="button">
+             <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTEwMjdfMjAw%2FMDAxNzYxNTQyMjczOTc5.hnumyKtElSN6-AVxUjf_uoRO9GuWvdGmXSIW6ovyHw4g.LXQvK4l45g2QY6hA7kuonC1RIlA1CPjuWmhacvAgzhMg.JPEG%2F22847304.jpg&type=l340_165">
+        </button><br>
+        <hr>
+
+        checkbox :
+        <input type="checkbox" value="1">샷추가
+        <input type="checkbox" value="2" checked="checked">휘핑크림
+        <input type="checkbox" value="3" disabled="disabled">펄추가
+        <input type="checkbox" value="4">시럽추가
+        <br>
+        radio : <input type="radio" name="china" value="1"  checked="checked"> 짜장면
+        <input type="radio" name="china" value="2"> 마파두부
+        <input type="radio" name="china" value="3"> 깐풍기
+        <br>
+        <input type="radio" name="gender" value="male"  checked="checked"> 남자
+        <input type="radio" name="gender" value="female"> 여자
+        <br>
+        select : 
+        <select>
+            <option selected="selected">한식</option>
+            <option>양식</option>
+            <option>중식11111</option>
+            <option>일식</option>
+            <option>분식</option>
+        </select>
+        <br>
+        select : size
+        <select size="3">
+            <option>한식</option>
+            <option>양식</option>
+            <option selected="selected">중식11111</option>
+            <option>일식</option>
+            <option>분식</option>
+        </select><br>
+        select : multiple: <!-- 여러개 선택가능-->
+        <select multiple="4">
+            <option>한식</option>
+            <option selected="selected">양식</option>
+            <option selected="selected">중식11111</option>
+            <option>일식</option>
+            <option>분식</option>
+        </select>
+        <br>
+        label 1 : 클릭영역 확장
+        <label>
+            <input type="checkbox">펄추가
+        </label>
+        <br>
+        label 2 : 
+        <label for="perl">펄추가</laber>
+        <input type="checkbox" id="perl">
+        <br>
+        color : <input type="color">
+    
+        <br>
+        date : <input type="date" value="2025-12-19"><br>
+        time : <input type="time"><br>
+        number : <input type="number"><br>
+        range : <input 
+                    type="range"
+                    min="10"
+                    max="100"
+                    step="30">
+                <fieldset>
+                    <legend>제목</legend>
+                    내용
+                </fieldset>
+        <br>
+    </form>
+
+    <!--
+        form 속성
+        method : get, post
+        method 기본값은 get
+        
+        action : 전송할 주소
+        action 기본값은 현재 내 주소
+    -->
+
+    <form mothod="get">
+        <input type="text" name="abcd"><br>
+        <input type="text" name="stacy"><br>
+        <input type="submit" value="get 연습"><br>
+    </form>
+    <form method="get" action="https://search.naver.com/search.naver">
+        <input type="text" name="query"><br>
+        <input type="submit" value="네이버검색"><br>
+    </form>
+    <form method="get" action="https://www.google.com/search">
+        <input type="text" name="q"><br>
+        <input type="submit" value="구글검색"><br>
+    </form>
+
+    <form method="post">
+        <input type="text" name="abcd"><br>
+        <input type="text" name="stacy"><br>
+        <input type="submit" value="post 연습"><br>
+    </form>
+    <br><br><br><br><br><br><br><br><br><br> <br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

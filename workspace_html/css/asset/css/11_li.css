@@ -1,0 +1,20 @@
+ul{
+    list-style:none;
+    padding-left:0;
+}
+
+table{
+    border:1px solid red;
+    border-collapse: collapse;
+}
+/* tr은 왠만하면 쓰지말자 */
+/* tr{
+    border:1px solid blue;
+    width:100px;
+} */
+td{
+    border:1px solid black;
+    width:20px;
+    height:40px;
+}
+

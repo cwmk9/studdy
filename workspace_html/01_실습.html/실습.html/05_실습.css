@@ -1,0 +1,113 @@
+#실습{
+    /* border: 1px solid red; */
+
+    width:90vw;
+    height:93vh;
+    overflow: hidden;
+    margin: 30px;
+    margin-right: 80px;
+    margin-left: 120px;
+}
+
+.실습1{
+    /* border:1px solid red; */
+
+    width:38vw;
+    height:93vh;
+    display: inline-block;
+}
+
+.실습2{
+    /* border:1px solid red; */
+
+    width:51vw;
+    height:93vh;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.실습1-1{
+    /* border:1px solid red; */
+    width:35vw;
+    height:60vh;
+
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/0dedaa8602ba5d6d818dec9f/houseofsilencemariamarinina03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-left: 30px;
+
+    position:relative;
+    top:500px;
+    }
+
+.실습1-2{
+    /* border:1px solid red; */
+    width:33vw;
+    height:15vh;
+    font-size: 50px;
+    margin-left: 30px;
+
+}
+
+.실습1-3{
+    /* border:1px solid red; */
+    width:38vw;
+    height:10vh;
+    font-size: 16px;
+    margin-top:10px;
+    margin-left: 30px;
+
+    display: inline-block;
+    vertical-align: top;
+}
+
+.실습2-2-1{
+    /* border:1px solid red; */
+    width:17vw;
+    height:39vh;
+    display: inline-block;
+
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/42568883ba365e639e3fc0a9/0f9a91f61af2dac432841181deef820c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 90px;
+    margin-left: 25px;
+    vertical-align: bottom;
+}
+.실습2-2-2{
+    /* border:1px solid red; */
+    width:17vw;
+    height:29vh;
+
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/2dd335aa72b0516cb1df543c/22c7537e24e94a7b5fc4c74be769544a.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: inline-block;
+    vertical-align: bottom;
+
+    /* margin-bottom: 25px; */
+    margin-left: 25px;
+}
+.실습3{
+    /* border:1px solid red; */
+    width:35vw;
+    height:30vh;
+
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/add58d50d86d5fb4a773eff5/0ee610f6080f69b8179888943e49b794.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-left: 25px;
+    vertical-align: bottom;
+    margin-top: 25px;
+
+    display: inline-block;
+}

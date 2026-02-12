@@ -1,0 +1,104 @@
+#배경{
+    /* border: 1px solid red; */
+    width:98vw;
+    height:98vh;
+
+    position:relative;
+}
+
+.사진1{
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/4583c5e5778759d5bf354095/dfggdf-min.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    position:absolute;
+    left:2%;
+    top:10%;
+
+    width:46%;
+    height:44%;
+}
+
+.사진2{
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/fe2b4f4f73b2545cb746601b/spirituality-religion-hands-folded-prayer-holy-bible-church-concept-faith_1150-148781.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    
+    position:absolute;
+    right:25%;
+    top:10%;
+
+    width:23%;
+    height:24%;
+}
+
+
+.사진3{
+    background-image: url("https://images01.nicepage.com/c461c07a441a5d220e8feb1a/ea6de3a355c35c3fb5e2e8fb/gfgg.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+
+    position:absolute;
+    left:32%;
+    bottom:10%;
+    
+
+    width:27%;
+    height:24%;
+}
+
+.사진4{
+    /* border:1px solid red; */
+    background-color: rgba(0, 0, 0, 0.918);
+
+    position:relative;
+
+    right:-52%;
+    bottom:-42%;
+
+    width:40%;
+    height:48%;
+}
+
+.사진4-1{
+    color:white;
+    font-size: 40px;
+
+    padding-left: 30px;
+    padding-top: 30px;
+
+}
+
+.사진4-2{
+    color:white;
+    font-weight: 200;
+
+    padding-left: 30px;
+}
+
+.사진4-3{
+    border-bottom:1px white solid;
+
+    color:white;
+    font-weight: 200;
+
+    position:absolute;
+    bottom:5%;
+    left:24%;
+}
+
+.사진5{
+    /* border: 1px solid red; */
+
+    background-color: antiquewhite;
+
+
+    width:28%;
+    height:98%;
+
+    position:absolute;
+    top:0px;
+    left:35%;
+
+    z-index: -2;
+}

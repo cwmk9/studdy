@@ -1,0 +1,99 @@
+#모델{
+    /* border: 1px solid red; */
+    width: 99vw;
+    height: 99vh;
+}
+
+.모델1{
+    background-color: blueviolet;
+    width:70vw;
+    height:98vh;
+
+    position: absolute;
+    right:0px;
+}
+
+.모델2{
+    background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/e1900cdaa5c15cecae8746b6/rtyy-min.jpg);
+    background-size: cover;
+    width:50%;
+    height:75%;
+
+    position: absolute;
+    top:10%;
+    left:5%;
+}
+
+.모델3{
+    background-color: white;
+    width:35%;
+    height:50%;
+
+    position: relative;
+    left:50%;
+    top:20%;
+}
+
+.모델3-1{
+    position:absolute;
+
+    letter-spacing: 10px;
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 120%;
+
+    right:6%;
+    top:15%;
+}
+
+.모델3-2{
+    position:absolute;
+    color: blueviolet;
+
+    font-size: 450%;
+    font-weight: 600;
+
+    right:6%;
+    top:25%;
+}
+
+.모델3-3{
+    position:absolute;
+    color: blueviolet;
+
+    font-size: 450%;
+    font-weight: 600;
+
+    right:6%;
+    top:40%;
+}
+.모델3-4{
+    position:absolute;
+    color: blueviolet;
+
+    font-size: 450%;
+    font-weight: 600;
+
+    right:6%;
+    top:55%;
+}
+.모델3-5{
+    position:absolute;
+    color: blueviolet;
+
+    font-size: 150%;
+
+    right:27%;
+    top:79%;
+}
+.모델3-6{
+    border-bottom:1px solid blueviolet;  
+
+    position:absolute;
+    color: blueviolet;
+
+    font-size: 150%;
+    
+    right:8%;
+    top:79%;
+}

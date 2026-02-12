@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class='quiz q1'> 미래님 최고다</div>
+
+
+    <div class='quiz q2'>퀴즈2</div>
+    <div class='quiz q2-1'>퀴즈2</div>
+    <div class='quiz q2-2'>퀴즈2</div>
+    <div class='quiz q2'></div>
+    <div class='quiz q2-1'>퀴즈2</div>
+
+    <script>
+        // 문제 1 
+        // 다음 html의 컨텐츠를 출력하고 
+        // 화면 글씨 마지막에 '~냥'을 붙여서 표시한다
+        // <div class='quiz q1'> 미래님 최고다</div>
+        let q1 = document.querySelector('div')
+        q1.innerHTML+='~냥'
+
+
+        // 문제2
+        // 다음 코드 중 클래스 q2가 들어가 있는 모든 태그의 개수를 구하시오
+        /*
+            <div class='quiz q2'>퀴즈2</div>
+            <div class='quiz q2-1'>퀴즈2</div>
+            <div class='quiz q2-2'>퀴즈2</div>
+            <div class='quiz q2'></div>
+            <div class='quiz q2-1'>퀴즈2</div>
+        */
+        let q2 = document.getElementsByClassName('q2')
+        console.log(q2.length)
+
+        // 문제3
+        // 위 코드에서 클래스 q2를 가지는 태그의 글씨를 출력하시오
+        let q2s = document.querySelectorAll('.q2')
+        for (let i = 0; i < q2s.length; i++){
+        console.log(q2s[i].innerText)
+        }
+        // console.log(q2s.length)
+        // 문제4
+        // 위 코드에서 클래스 q2를 가지는 태그 중
+        // 글씨가 없는 태그의 내용을 '비어있음'으로 표시되게 바꿔주세요
+        // 이모지 : Win + .  
+        for (let i = 0; i < q2s.length; i++){
+            if(q2[i].innerText===''){
+                q2s[i].innerText='빔'
+
+            }
+        }
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>

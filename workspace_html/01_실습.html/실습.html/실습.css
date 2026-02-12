@@ -1,0 +1,40 @@
+#실습{
+    background-image: url("https://html5up.net/uploads/demos/tessellate/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height:70vh;
+    width:100vw;
+    overflow:hidden;
+
+    display: inline-block;
+}
+
+#실습 .실습1{
+    color:white;
+    font-weight: 100;
+    margin: 200px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#실습 .실습1 .실습2{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#실습 .실습1 .실습2 .실습3{
+    border-radius: 5px;
+    border:1px solid white;
+    background-color: rgb(255, 255, 255, 0.1);
+    margin: 30px 270px;
+    padding: 15px 0;
+}
+
+#실습 .실습1 .실습2 .실습3:hover{
+     background-color: rgb(255, 255, 255, 0.2);}
+
+.실습4{
+    border-bottom: 1px dotted white;
+}

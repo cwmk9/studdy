@@ -1,0 +1,244 @@
+#고기{
+    /* border: 1px solid red; */
+
+    position: relative;
+
+    width:97vw;
+    height:97vh;
+}
+
+.고기1{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/48x48ex/image/vendor_inventory/e85d/c15d648b4601d697947a75376fb2afd6c9baed40ce2060a2dbd646352506.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 10px;
+
+    width:70px;
+    height: 70px;
+}
+
+.고기2{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/48x48ex/image/vendor_inventory/f054/3f374040835f71273c69614865d5696a2b33ca6ea5636d6a89d4049ebbaa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 10px;
+
+    width:70px;
+    height: 70px;
+}
+
+.고기3{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/48x48ex/image/vendor_inventory/1ee3/8495c293d8d5e0f633cd73e0330e8061561602dc55bd9886d2d4525dfffc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin-bottom: 10px;
+
+    width:70px;
+    height: 70px;
+}
+
+.고기4{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/48x48ex/image/vendor_inventory/ae27/90b906650aef7ef2426d0a749ee6129c2fc002486fd7befed76b517efc6d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 10px;
+
+    width:70px;
+    height: 70px;
+}
+
+.고기5{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/48x48ex/image/vendor_inventory/a62d/c19b18258eefe963abac933d7aad1c6274239e22897b6528694bfa4d2177.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 10px;
+
+    width:70px;
+    height: 70px;
+}
+
+.고기6{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/48x48ex/image/vendor_inventory/3643/579fa461090ece56e397e5219dbc0ae8bae5c22a3e24872693397f3730a2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 10px;
+
+    width:70px;
+    height: 70px;
+}
+
+.고기1-1{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/e85d/c15d648b4601d697947a75376fb2afd6c9baed40ce2060a2dbd646352506.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position:absolute;
+
+    top:0px;
+    left:110px;
+
+    width:0px;
+    height:470px
+}
+
+
+.고기1:hover + .고기1-1{
+    display:block;
+    width:470px;
+    transition: all 1s;
+}
+
+.고기2-1{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/f054/3f374040835f71273c69614865d5696a2b33ca6ea5636d6a89d4049ebbaa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position:absolute;
+
+    top:0px;
+    left:110px;
+
+    width:0px;
+    height:470px
+}
+
+.고기2:hover + .고기2-1{
+    display:block;
+    width:470px;
+    transition: all 1s;
+}
+
+.고기3-1{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/1ee3/8495c293d8d5e0f633cd73e0330e8061561602dc55bd9886d2d4525dfffc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position:absolute;
+
+    top:0px;
+    left:110px;
+
+    width:0px;
+    height:470px
+
+}
+
+.고기3:hover + .고기3-1{
+    display:block;
+    width:470px;
+    transition: all 1s;
+}
+
+
+.고기4-1{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/ae27/90b906650aef7ef2426d0a749ee6129c2fc002486fd7befed76b517efc6d.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position:absolute;
+
+    top:0px;
+    left:110px;
+
+    width:0px;
+    height:470px
+
+}
+
+.고기4:hover + .고기4-1{
+    display:block;
+    width:470px;
+    transition: all 1s;
+}
+
+.고기5-1{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/a62d/c19b18258eefe963abac933d7aad1c6274239e22897b6528694bfa4d2177.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position:absolute;
+
+    top:0px;
+    left:110px;
+
+    width:0px;
+    height:470px
+
+}
+
+.고기5:hover + .고기5-1{
+    display:block;
+    width:470px;
+    transition: all 1s;
+}
+
+.고기6-1{
+    background-image: url("https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/vendor_inventory/3643/579fa461090ece56e397e5219dbc0ae8bae5c22a3e24872693397f3730a2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position:absolute;
+
+    top:0px;
+    left:110px;
+
+    width:0px;
+    height:470px
+
+}
+
+.고기6:hover + .고기6-1{
+    display:block;
+    width:470px;
+    transition: all 1s;
+}
+
+.설명{
+    background-image: url("https://blog.elgaon.com/wp-content/uploads/2025/02/%EA%B1%B4%EA%B0%95%EA%B3%BC-%EB%A7%9B%EC%9D%84-%ED%95%9C%EB%B2%88%EC%97%90-%EC%86%8C%EA%B3%A0%EA%B8%B0-%ED%9A%A8%EB%8A%A5-%EC%B9%BC%EB%A1%9C%EB%A6%AC-1%ED%83%84-1-%EA%B7%BC%EC%9C%A1%ED%98%95%EC%84%B1-%EB%B0%8F-%EC%9C%A0%EC%A7%80.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width:500px;
+    height:0px;
+    position: absolute;
+
+    right:65px;
+    top:0px;
+}
+
+.고기1:hover > .설명{
+    display:block;
+    height:470px;
+    transition: all 1s;
+}
+.고기2:hover > .설명{
+    display:block;
+    height:470px;
+    transition: all 1s;
+}
+.고기3:hover > .설명{
+    display:block;
+    height:470px;
+    transition: all 1s;
+}
+.고기4:hover > .설명{
+    display:block;
+    height:470px;
+    transition: all 1s;
+}
+.고기5:hover > .설명{
+    display:block;
+    height:470px;
+    transition: all 1s;
+}
+.고기6:hover > .설명{
+    display:block;
+    height:470px;
+    transition: all 1s;
+}

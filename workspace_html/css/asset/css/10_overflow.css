@@ -1,0 +1,46 @@
+.v{
+    /* display:none; */
+    /* 공간은 남아있고 요소는 사라짐 */
+    visibility:hidden;
+}
+
+.a:hover + .v{
+    /* 요소가 없어서 적용 안됨 */
+    visibility: visible;
+}
+.op{
+    /* 투명도 */
+    opacity:0.1;
+}
+.op:hover{
+    opacity:1;
+}
+
+.box{
+    border:1px solid red;
+    width:100px;
+    height:110px;
+    margin:10px;
+}
+.of-hidden{
+    overflow:hidden;
+}
+.of-scroll{
+    overflow:scroll;
+}
+.of-auto{
+    overflow:auto;
+}
+
+.parent div{
+    border:1px solid red;
+    display: inline-block;
+    width: 100px;
+    margin:5px;
+}
+.parent{
+    border:1px solid blue;
+    width:300px;
+    white-space: nowrap;
+    overflow:scroll;
+}

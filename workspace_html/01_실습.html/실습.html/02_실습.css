@@ -1,0 +1,67 @@
+#실습{
+    background-color: rgba(128, 128, 128, 0.219);
+
+    overflow:hidden;
+    height:87vh;
+    width:90vw;
+    padding: 50px 50px;
+
+    
+}
+
+#실습 > div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    line-height: 2.2;
+    
+
+}
+
+.실습1{
+    border:15px solid transparent;
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/80f9d9d02af9527ab358c361/pexels-photo-3335367.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 35vw;
+    height:75vh;
+
+    padding: 30px;
+    /* margin:15px; */
+}
+
+.실습2{
+    background-color: white;
+    height: 85vh;
+}
+
+.실습3{
+    border:15px solid transparent;
+    /* background-color: white; */
+
+    width: 35vw;
+    /* height:75vh; */
+
+    padding: 30px 60px;
+    margin-top: 104px;
+
+    font-size: 1.16rem;
+    font-weight: 350;
+    
+    
+}
+
+.실습4{
+    border:2px solid black;
+    margin-top: 30px;
+    padding-top: 5px;
+    
+    width: 150px;
+    height: 47px;
+
+    text-align: center;
+    font-weight: 300;
+}
+

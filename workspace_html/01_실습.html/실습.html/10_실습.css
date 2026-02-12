@@ -1,0 +1,320 @@
+.큰바탕{
+    border: 1px solid red;
+    width:80vw;
+    height:100vh;
+
+
+    margin: 0px auto;
+}
+
+.상단1{
+    border: 1px solid red;
+
+    background-image: url("https://ssl.pstatic.net/static/cafe/icon_naver_190423.png");
+    background-repeat: no-repeat;
+    background-size: 70px;
+
+    width:80vw;
+
+    display: flex;
+    justify-content: end;
+}
+
+.상단1 div{
+    border-right: 1px solid rgba(128, 128, 128, 0.342);
+
+    font-size: 12px;
+
+    text-align: center;
+
+    width:60px;
+    height:20px;
+
+    margin-top: 5px;
+
+   
+}
+
+.상단1 .상단1-6{
+    border: 0px;
+}
+
+.상단1 .상단1-7{
+    border: 1px solid rgba(128, 128, 128, 0.24);
+}
+
+.상단1 .상단1-8{
+    background-image: url("https://ssl.pstatic.net/static/cafe/cafe_pc/sp/sp_icon_06952b76.svg");
+    background-position: -226px -68px;
+
+    margin-left: 5px;
+
+    width:30px;
+    height:25px;
+}
+.상단2{
+    border: 1px solid rgba(128, 128, 128, 0.24);
+
+    background-image: url("https://ssl.pstatic.net/static/cafe/cafe_pc/bg_default_title_white_180724.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width:80vw;
+    height:19vh;
+
+    margin-bottom: 20px;
+
+    font-size: 40px;
+
+    display: inline-block;
+}
+
+.상단2-1{
+    margin-top: 35px;
+    margin-left:20px;
+    display: inline-block;
+}
+
+.상단2-2{
+    font-size: 12px;
+    margin-left:20px;
+}
+
+.왼쪽{
+    border: 1px solid red;
+    width:15vw;
+    height:50vh;
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.왼쪽1{
+    /* border: 1px solid red; */
+    width:13vw;
+}
+
+.왼쪽1-1{
+    border-right: 1px solid rgba(128, 128, 128, 0.24);
+
+    width:6vw;
+
+    text-align: center;
+
+    display: inline-block;
+}
+
+.왼쪽1-2{
+    width:6vw;
+
+    text-align: center;
+
+    display: inline-block;
+}
+
+.왼쪽2{
+    /* border: 1px solid red; */
+    width:13vw;
+    height:10vh;
+
+    border: 1px solid rgba(128, 128, 128, 0.24);
+
+    display: inline-block;
+
+}
+.왼쪽2-1{
+    /* border: 1px solid red; */
+    
+
+    background-image: url("https://ssl.pstatic.net/static/cafe/cafe_pc/default/cafe_thumb_noimg_55.png");
+    background-repeat: no-repeat;
+    background-size: 65px;
+
+    width:5vw;
+    height:7vh;
+
+    margin-top: 10px;    
+
+    display: inline-block;
+    
+    
+}
+
+.왼쪽2-2{
+    /* border: 1px solid red; */
+
+    font-size: 10px;
+
+    width:7vw;
+    height:7vh;
+
+    padding-top: 9px;
+
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.왼쪽2-2-1{
+    /* border: 1px solid red; */
+
+    display: inline-block;
+}
+
+.왼쪽2-2-2{
+    /* border: 1px solid red; */
+
+    border: 1px solid rgba(128, 128, 128, 0.24);
+
+    display: inline-block;
+}
+
+.왼쪽3{
+    width:13vw;
+    height:6vh;
+    font-size: 14px;
+
+    margin-top: 10px;
+}
+
+
+.왼쪽3-1{
+    background-image: url("https://cafe.pstatic.net/img/section/indi_cafe/ico_sprite_ranktbl.gif");
+    background-position: -20px 0;
+    background-repeat: no-repeat;
+
+    width:1.5vw;
+    height:2vh;
+
+    display: inline-block;
+}
+
+.왼쪽3-2{
+    display: inline-block;
+}
+
+.왼쪽4-1{
+    background-image: url("https://ssl.pstatic.net/static/cafe/cafe_pc/svg/ico_member.svg");
+    background-repeat: no-repeat;
+
+    width:1.5vw;
+    height:2vh;
+    display: inline-block;
+
+    margin-top: 10px;
+}
+
+.왼쪽4-2{
+    display: inline-block;
+
+    vertical-align: top;
+    padding-top: 7px;
+}
+
+.왼쪽4-3{
+    background-image: url("https://ssl.pstatic.net/static/cafe/cafe_pc/sp/sp_icon_white_72ca546e.svg");
+    background-position: -118px -21px;
+    
+    width: 1vw;
+    height: 2vh;
+
+    display: inline-block;
+}
+
+.왼쪽4-4{
+    /* border: 1px solid red; */
+
+    padding-top: 10px;
+
+    height:2vh;
+
+    float: right;
+
+    display: inline-block;
+}
+
+.왼쪽5{
+    /* border: 1px solid red; */
+    border-radius: 5px;
+
+    background-color: grey;
+    color: white;
+
+    text-align: center;
+
+    width: 13vw;
+    height: 3vh;
+}
+
+.왼쪽6{
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-radius: 5px;
+
+    text-align: center;
+
+    margin-top: 5px;
+
+    width: 13vw;
+    height: 3vh;
+}
+
+.왼쪽7{
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    border-radius: 5px;
+
+    margin-top: 5px;
+
+    width: 13vw;
+    height: 3vh;
+}
+
+.왼쪽7-1{
+    background-color: yellowgreen;
+
+    color: white;
+
+    /* border: 1px solid red; */
+    border-radius: 5px;
+
+    float: right;
+
+    text-align: center;
+
+    width: 3vw;
+    height: 3vh;
+}
+
+.오른쪽1{
+    border: 1px solid red;
+
+    display: inline-block;
+
+    width:64vw;
+    height:30vh;
+
+}
+
+.오른쪽1-1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.오른쪽1-2{
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.오른쪽1-3{
+    font-size: 30px;
+    font-weight: 600;
+
+     margin-top: 10px;
+    margin-left: 50px;
+}
+.오른쪽1-4{
+     margin-top: 20px;
+    margin-left: 50px;
+}
